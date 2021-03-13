@@ -2,7 +2,6 @@ from nbayes import analizza_corpus, training, testing
 
 NOME_VOC = "vocabolario.txt"
 NOME_DIR = "20_newsgroups"
-NOME_DIR = "20_newsgroups_debug"
 
 # Crea il vocabolario
 vocabolario = {}
