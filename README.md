@@ -1,4 +1,4 @@
-# Classificatore bayesiano di testi
+# Classificatore bayesiano ingenuo di testi
 
 Si tratta di un esempio ormai standard di analisi bayesiana di un corpus di testi, come per esempio descritta nel libro di Mitchell sul machine learning.
 
@@ -10,7 +10,7 @@ A quel punto col teorema di Bayes si riesce a dare una predizione della classe d
 
 Per collaudare il programma ho usato il celebre corpus di 20.000 documenti 20_newsgroups che si trova per esempio sulla pagina web di Jason Rennie: http://qwone.com/~jason/20Newsgroups/
 
-Il motore bayesiano e l'analizzatore lessicale sono condensati in una libreria bayes.py che viene chiamata dal programma che ne fa il test sul corpus.
+Il motore bayesiano e l'analizzatore lessicale sono condensati in una libreria nbayes.py che viene chiamata dal programma che ne fa il test sul corpus.
 
 Enjoy,
 P
